@@ -21,6 +21,7 @@
 		F6CBD69D19C25D3300813FF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CBD67F19C25D3300813FF6 /* UIKit.framework */; };
 		F6CBD6A519C25D3300813FF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6CBD6A319C25D3300813FF6 /* InfoPlist.strings */; };
 		F6CBD6A719C25D3300813FF6 /* sudokuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CBD6A619C25D3300813FF6 /* sudokuTests.m */; };
+		F6CBD6B219C2605500813FF6 /* HHDDGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CBD6B119C2605500813FF6 /* HHDDGridView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F6CBD6A219C25D3300813FF6 /* sudokuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sudokuTests-Info.plist"; sourceTree = "<group>"; };
 		F6CBD6A419C25D3300813FF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F6CBD6A619C25D3300813FF6 /* sudokuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sudokuTests.m; sourceTree = "<group>"; };
+		F6CBD6B019C2605500813FF6 /* HHDDGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHDDGridView.h; sourceTree = "<group>"; };
+		F6CBD6B119C2605500813FF6 /* HHDDGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHDDGridView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				F6CBD68D19C25D3300813FF6 /* Main.storyboard */,
 				F6CBD69019C25D3300813FF6 /* HHDDViewController.h */,
 				F6CBD69119C25D3300813FF6 /* HHDDViewController.m */,
+				F6CBD6B019C2605500813FF6 /* HHDDGridView.h */,
+				F6CBD6B119C2605500813FF6 /* HHDDGridView.m */,
 				F6CBD69319C25D3300813FF6 /* Images.xcassets */,
 				F6CBD68219C25D3300813FF6 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				F6CBD68C19C25D3300813FF6 /* HHDDAppDelegate.m in Sources */,
 				F6CBD69219C25D3300813FF6 /* HHDDViewController.m in Sources */,
+				F6CBD6B219C2605500813FF6 /* HHDDGridView.m in Sources */,
 				F6CBD68819C25D3300813FF6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
